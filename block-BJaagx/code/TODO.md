@@ -28,6 +28,10 @@ let numbersMultipliedBy5 = multiplyArrayByN(marks, multiplyBy5);
 function operation(n, opFn) {
   // your code goes her
 }
+function opFn(n) {
+  return n / 10;
+}
+operation(21, opFn);
 // TEST
 console.log(
   operation(21, function (n) {
